@@ -10,7 +10,7 @@
   "arch": ["aarch64", "amd64", "armv7"],
   "boot": "auto",
   "map": ["config:rw","ssl"],
-  "devices": [ "/dev/input/by-id/usb-1a86_5455-event-kbd:/dev/input/event0" ],
+  "devices": [ "/dev/input/by-id/usb-1a86_5455-event-kbd" ],
   "environment": {
     "ATTACH_BARCODESCANNER": "true"
   },
