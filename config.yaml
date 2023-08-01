@@ -17,10 +17,6 @@ init: false
 map:
 - config:rw
 - ssl
-devices:
-- /dev/input/by-id/usb-1a86_5455-event-kbd:/dev/input/event0
-environment:
-  ATTACH_BARCODESCANNER: true
 ports:
   80/tcp: 8621
 ports_description:
